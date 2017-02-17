@@ -8,7 +8,7 @@ def main():
     tcp_final =[]
     tcp_sockets = psutil.net_connections(kind='tcp')
 # Header
-    print "PID,Local address,Remote address,Status"
+    print "\"pid\",\"laddr\",\"raddr\",\"status\""
 
 # All valid tcp connections 
     for a in tcp_sockets:
@@ -28,4 +28,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
