@@ -1,3 +1,7 @@
+
+# Operating System
+Windows 10
+
 ## Lab 1
 
 ### What is psutil?
